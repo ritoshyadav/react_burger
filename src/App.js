@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import js from './component/js'
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
+          <js/>
             Learn React
           </a>
         </header>
